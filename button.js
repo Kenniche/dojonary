@@ -10,3 +10,5 @@ function logInOut(element){
         element.innerText="Login"
     }
 }
+
+//Code by @Kenniche
