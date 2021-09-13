@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+/* NavBar */
+.nav{
+    display: flex;
+    background-color: lightgray;
+    justify-content: space-between;
+    padding: 15px;
+}
+#sBar{
+    height: 30px;
+    width: 400px;
+    position: relative;
+    top: 5px;
+}
+.login{
+    background-color: cornflowerblue;
+    color: whitesmoke;
+    border: 2px black solid;
+    box-shadow: 3px 3px black;
+    padding: 10px 20px;
+}
+
+/* Body */
+.definition{
+    display: flex;
+}
+
+.leftSide{
+    flex: 3;
+}
+
+.rightSide{
+    flex: 1;
+}
+
+/* Definition Cards */
+
+.def_card{
+    display: flex;
+    align-items: center;
+    height: 200px;
+    margin: 20px 20px 0px 0px;
+    padding: 15px;
+    border: black solid 2px;
+}
+        /* Left Side */
+.ninjaDefCard{
+    text-align: center;
+}
+.noun{
+    margin-bottom: 5px;
+}
+.plural{
+    margin-bottom: 20px;
+}
+.ninja_def{
+    padding-left: 15px;
+}
+        /* Right Side */
+#rightSide{
+    flex-direction: column;
+    height: 150px;
+    margin-right: 0px;
+}
+h3{
+    margin-bottom: 20px;
+}
+
+/* Cards Button design */
+
+.likes{
+    padding: 5px 15px;
+    border: black solid 2px;
+    box-shadow: black 2px 2px;
+    background-color: gold;
+}
+
+.add_def{
+    padding: 5px 30px;
+    border: black solid 2px;
+    box-shadow: black 2px 2px;
+    background-color: darkseagreen;
+}
